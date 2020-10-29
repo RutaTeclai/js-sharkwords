@@ -45,7 +45,7 @@ const disableLetterButton = (buttonEl) => {
 // Return `true` if `letter` is in the word.
 //
 const isLetterInWord = (letter) => {
-  // Replace this with your code
+  return $(".letter-box").hasClass(letter);
 };
 
 // Called when `letter` is in word. Update contents of divs with `letter`.
